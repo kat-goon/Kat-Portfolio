@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRPAHY */
+h1 {
+    font-family: sans-serif;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+/* HEADER */
+
+
+header {
+    background-color: yellow;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+}
+
+/* BODY */
+
+body {
+    background-color: white;
+}
+
+.hero-section {
+    display: flex;
+    height: 90vh;
+    align-items: left;
+    padding: 30px 25px;
+}
