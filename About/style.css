@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRAPHY */
+h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 3em;
+    color: rgb(3, 70, 56);
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 2em;
+    color: rgb(3, 70, 56);
+}
+
+h3 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 450;
+    color: rgb(3, 70, 56);
+}
+
+a {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+/* EXTRA */
+.katimage {
+    max-width: 95%;
+    height: auto;
+    padding: 30px;
+}
+
+
+/* HEADER */
+nav {
+    background-color: rgb(3, 70, 56);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 36px;
+}
+
+.site-name {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.head-link {
+    list-style-type: none;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+
+    li {
+        font-size: 18px;
+        display: inline-block;
+
+        &:first-child {
+            margin-right: 44px;
+        }
+
+        &:nth-child(2) {
+            margin-right: 44px;
+        }
+    }
+}
+
+.top-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ABOUT */
+body {
+    background: rgb(210, 227, 193);
+    background: radial-gradient(circle, rgba(210, 227, 193, 1) 0%, rgba(163, 217, 207, 1) 35%, rgba(4, 70, 56, 1) 100%);
+}
+
+.about {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 1fr 2fr;
+    height: 60vh;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-item {
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+/* INTAC */
+
+/* FOOTER */
