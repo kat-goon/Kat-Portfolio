@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRPAHY */
+h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 10em;
+    color: #29D955;
+}
+
+h2 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 450;
+    color: #CCCDD0;
+}
+
+h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: #CCCDD0;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #CCCDD0;
+}
+
+a {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}

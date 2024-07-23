@@ -13,7 +13,7 @@ h1 {
 h2 {
     font-family: "Figtree", sans-serif;
     font-weight: 450;
-    color: #29D955;
+    color: #CCCDD0;
 }
 
 h3 {
@@ -76,40 +76,6 @@ nav {
     text-decoration: none;
 }
 
-/* BODY */
-body {
-    background-image: linear-gradient(45deg, #002442, #003335, #00471D);
-}
-
-/* HERO */
-.hero-section {
-    display: flex;
-    height: 60vh;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 25px;
-    flex-direction: column;
-    text-align: center;
-}
-
-/* PROJECT CARDS */
-.project-cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 30px;
-    height: 360px;
-    padding: 30px;
-}
-
-.card {
-    display: flex;
-    border-radius: 30px;
-    background-color: #111826;
-    padding: 30px 36px;
-    flex-direction: column;
-}
-
-/* FOOTER */
 
 .social-link {
     list-style-type: none;
