@@ -27,7 +27,7 @@ h4 {
     font-family: "Figtree", sans-serif;
     font-weight: 400;
     font-size: 1.2em;
-    color: #CCCDD0;
+    color: #939497;
 }
 
 a {
@@ -97,7 +97,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
-    height: 360px;
+    height: auto;
     padding: 30px;
 }
 
@@ -109,11 +109,7 @@ body {
     flex-direction: column;
 }
 
-/* images */
-/* .toyotaCover {
-    width: 100%;
 
-} */
 
 /* FOOTER */
 
