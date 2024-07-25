@@ -5,33 +5,33 @@
 
 /* TYPOGRPAHY */
 h1 {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Bricolage Grotesque", Arial, sans-serif;
     font-size: 10em;
     color: #29D955;
 }
 
 h2 {
-    font-family: "Figtree", sans-serif;
+    font-family: "Figtree", Arial, sans-serif;
     font-weight: 450;
     color: #29D955;
 }
 
 h3 {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Bricolage Grotesque", Arial, sans-serif;
     color: #CCCDD0;
     font-size: 2em;
     padding-bottom: 10px;
 }
 
 h4 {
-    font-family: "Figtree", sans-serif;
+    font-family: "Figtree", Arial, sans-serif;
     font-weight: 400;
     font-size: 1.2em;
     color: #939497;
 }
 
 a {
-    font-family: "Figtree", sans-serif;
+    font-family: "Figtree", Arial, sans-serif;
     font-weight: 600;
     text-decoration: none;
     color: white;
@@ -40,40 +40,43 @@ a {
 /* HEADER */
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 30px 36px;
+    /* background-color: #002442;
+    border-radius: 30px; */
+
 }
 
-.site-name {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 36px;
-    font-weight: 500;
-}
-
-.head-link {
-    list-style-type: none;
-    font-weight: 700;
+.navbar a {
+    display: inline-block;
+    color: #29D955;
+    text-align: center;
+    padding: 14px;
     text-decoration: none;
-    color: white;
-
-    li {
-        font-size: 18px;
-        display: inline-block;
-
-        &:first-child {
-            margin-right: 44px;
-        }
-
-        &:nth-child(2) {
-            margin-right: 44px;
-        }
-    }
+    font-size: 17px;
+    border-radius: 30px;
 }
 
-.top-link {
-    color: white;
-    text-decoration: none;
+.navbar a:hover {
+    background-color: #003335;
+    color: #939497;
+}
+
+.navbar a.active {
+    background-color: #003335;
+    color: #CCCDD0;
+}
+
+/* sticky nav */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.project-cards {
+    padding-top: 60px;
 }
 
 /* BODY */
