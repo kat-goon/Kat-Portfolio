@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRPAHY */
+h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 10em;
+    color: #29D955;
+}
+
+h2 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 450;
+    color: #CCCDD0;
+}
+
+h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: #CCCDD0;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #CCCDD0;
+}
+
+a {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+
+}
+
+.pill-nav a {
+    display: inline-flex;
+    color: #939497;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.pill-nav a:hover {
+    background-color: #29D955;
+    color: #003335;
+}
+
+.pill-nav a.active {
+    background-color: #003335;
+    color: #CCCDD0;
+}

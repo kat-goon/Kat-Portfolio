@@ -38,69 +38,36 @@ a {
 }
 
 /* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 30px 36px;
+    border-radius: 90px;
+
 }
 
-.site-name {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 36px;
-    font-weight: 500;
-}
-
-.head-link {
-    list-style-type: none;
-    font-weight: 700;
+.pill-nav a {
+    display: inline-flex;
+    color: #939497;
+    text-align: center;
+    padding: 14px;
     text-decoration: none;
-    color: white;
-
-    li {
-        font-size: 18px;
-        display: inline-block;
-
-        &:first-child {
-            margin-right: 44px;
-        }
-
-        &:nth-child(2) {
-            margin-right: 44px;
-        }
-    }
+    font-size: 17px;
+    border-radius: 30px;
 }
 
-.top-link {
-    color: white;
-    text-decoration: none;
+.pill-nav a:hover {
+    background-color: #29D955;
+    color: #003335;
 }
 
-
-.social-link {
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-
-    li {
-        font-size: 18px;
-        display: column;
-
-        &:first-child {
-            margin-right: 44px;
-            margin-bottom: 10px;
-        }
-
-        &:nth-child(2) {
-            margin-right: 44px;
-            margin-bottom: 10px;
-        }
-    }
-}
-
-.social {
-    color: White;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 0.8em;
+.pill-nav a.active {
+    background-color: #003335;
+    color: #CCCDD0;
 }

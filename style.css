@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+/* BODY */
+body {
+    background-image: linear-gradient(45deg, #002442, #003335, #00471D);
+}
+
 /* TYPOGRPAHY */
 h1 {
     font-family: "Bricolage Grotesque", Arial, sans-serif;
@@ -32,25 +37,29 @@ h4 {
 
 a {
     font-family: "Figtree", Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
-    color: white;
+    color: #CCCDD0;
 }
 
 /* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 36px;
-    /* background-color: #002442;
-    border-radius: 30px; */
+    border-radius: 90px;
 
 }
 
-.navbar a {
-    display: inline-block;
-    color: #29D955;
+.pill-nav a {
+    display: inline-flex;
+    color: #939497;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -58,36 +67,24 @@ nav {
     border-radius: 30px;
 }
 
-.navbar a:hover {
-    background-color: #003335;
-    color: #939497;
+.pill-nav a:hover {
+    background-color: #29D955;
+    color: #003335;
 }
 
-.navbar a.active {
+.pill-nav a.active {
     background-color: #003335;
     color: #CCCDD0;
 }
 
-/* sticky nav */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
-.sticky+.project-cards {
-    padding-top: 60px;
-}
 
-/* BODY */
-body {
-    background-image: linear-gradient(45deg, #002442, #003335, #00471D);
-}
+
 
 /* HERO */
 .hero-section {
     display: flex;
-    height: 60vh;
+    height: 55vh;
     justify-content: center;
     align-items: center;
     padding: 30px 25px;

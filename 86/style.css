@@ -36,3 +36,38 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+
+}
+
+.pill-nav a {
+    display: inline-flex;
+    color: #939497;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.pill-nav a:hover {
+    background-color: #29D955;
+    color: #003335;
+}
+
+.pill-nav a.active {
+    background-color: #003335;
+    color: #CCCDD0;
+}

@@ -3,24 +3,29 @@
     padding: 0;
 }
 
+/* BODY */
+body {
+    background-image: linear-gradient(45deg, #002442, #003335, #00471D);
+}
+
 /* TYPOGRAPHY */
 h1 {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 3em;
-    color: rgb(3, 70, 56);
+    color: #CCCDD0;
     padding-bottom: 20px;
 }
 
 h2 {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 2em;
-    color: rgb(3, 70, 56);
+    color: #CCCDD0;
 }
 
 h3 {
     font-family: "Figtree", sans-serif;
     font-weight: 450;
-    color: rgb(3, 70, 56);
+    color: #CCCDD0;
 }
 
 a {
@@ -39,52 +44,42 @@ a {
 
 
 /* HEADER */
-nav {
-    background-color: rgb(3, 70, 56);
+header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 30px 36px;
+    border-radius: 90px;
+
 }
 
-.site-name {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 36px;
-    font-weight: 500;
-}
-
-.head-link {
-    list-style-type: none;
-    font-weight: 700;
+.pill-nav a {
+    display: inline-flex;
+    color: #939497;
+    text-align: center;
+    padding: 14px;
     text-decoration: none;
-    color: white;
-
-    li {
-        font-size: 18px;
-        display: inline-block;
-
-        &:first-child {
-            margin-right: 44px;
-        }
-
-        &:nth-child(2) {
-            margin-right: 44px;
-        }
-    }
+    font-size: 17px;
+    border-radius: 30px;
 }
 
-.top-link {
-    color: white;
-    text-decoration: none;
+.pill-nav a:hover {
+    background-color: #29D955;
+    color: #003335;
+}
+
+.pill-nav a.active {
+    background-color: #003335;
+    color: #CCCDD0;
 }
 
 
-/* ABOUT */
-body {
-    background: rgb(210, 227, 193);
-    background: radial-gradient(circle, rgba(210, 227, 193, 1) 0%, rgba(163, 217, 207, 1) 35%, rgba(4, 70, 56, 1) 100%);
-}
-
+/* HERO */
 .about {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
