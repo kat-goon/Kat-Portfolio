@@ -112,6 +112,9 @@ nav {
 
 
 /* FOOTER */
+footer {
+    padding: 30px;
+}
 
 .social-link {
     list-style-type: none;

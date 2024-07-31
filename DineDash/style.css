@@ -3,10 +3,14 @@
     padding: 0;
 }
 
+body {
+    background-image: linear-gradient(45deg, #002442, #003335, #00471D);
+}
+
 /* TYPOGRPAHY */
 h1 {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 10em;
+    font-size: 5em;
     color: #29D955;
 }
 
@@ -70,4 +74,15 @@ nav {
 .pill-nav a.active {
     background-color: #003335;
     color: #CCCDD0;
+}
+
+/* HERO SECTION */
+.hero-section {
+    display: flex;
+    height: 55vh;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 25px;
+    flex-direction: column;
+    text-align: center;
 }
