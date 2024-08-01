@@ -9,29 +9,38 @@ body {
 
 /* TYPOGRPAHY */
 h1 {
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Bricolage Grotesque", arial, sans-serif;
     font-size: 5em;
     color: #29D955;
+    padding-top: 50px;
 }
 
 h2 {
-    font-family: "Figtree", sans-serif;
+    font-family: "Figtree", arial, sans-serif;
     font-weight: 450;
-    color: #CCCDD0;
+    color: #29D955;
+    padding-bottom: 50px;
 }
 
 h3 {
-    font-family: "Bricolage Grotesque", sans-serif;
-    color: #CCCDD0;
-    font-size: 2em;
+    font-family: "Bricolage Grotesque", arial, sans-serif;
+    color: white;
+    font-weight: 450;
+    font-size: 1em;
     padding-bottom: 10px;
 }
 
 h4 {
-    font-family: "Figtree", sans-serif;
+    font-family: "Figtree", arial, sans-serif;
     font-weight: 400;
     font-size: 1.2em;
     color: #CCCDD0;
+}
+
+p {
+    font-family: "Figtree", arial, sans-serif;
+    color: #CCCDD0;
+    padding-bottom: 30px;
 }
 
 a {
@@ -40,6 +49,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
 
 /* HEADER */
 header {
@@ -79,10 +89,19 @@ nav {
 /* HERO SECTION */
 .hero-section {
     display: flex;
-    height: 55vh;
     justify-content: flex-start;
     align-items: center;
     padding: 30px 25px;
     flex-direction: column;
     text-align: center;
+}
+
+/* KEY POINTS */
+.key-points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    justify-content: center;
+    width: 50vw;
+    padding: 30px 25px;
 }
