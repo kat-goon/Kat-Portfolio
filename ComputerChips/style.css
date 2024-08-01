@@ -71,3 +71,13 @@ nav {
     background-color: #003335;
     color: #CCCDD0;
 }
+
+/* EXECUTION */
+.execution {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    padding: 30px;
+    flex-direction: column;
+}

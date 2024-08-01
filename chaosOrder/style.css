@@ -71,3 +71,13 @@ nav {
     background-color: #003335;
     color: #CCCDD0;
 }
+
+/* HERO SECTION */
+.hero-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 25px;
+    flex-direction: column;
+    text-align: center;
+}
