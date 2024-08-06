@@ -64,7 +64,7 @@ a {
 
 /* IMAGE */
 img {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .fullsize {
@@ -131,36 +131,25 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     height: auto;
     justify-content: center;
-    /* width: 70vw;
-    padding: 30px; */
 }
 
 /* PROBLEM */
 .problem {
-    padding: 30px;
     display: flex;
     justify-content: center;
-    /* width: 70vw;
-    padding: 30px; */
     flex-direction: column;
 }
 
 /* INSIGHT RESEARCH */
 .insight-research {
-    padding: 30px;
     display: flex;
     justify-content: center;
-    /* width: 70vw;
-    padding: 30px; */
     flex-direction: column;
 }
 
 /* EXECUTION */
 .execution {
-    padding: 30px;
     display: flex;
     justify-content: center;
-    /* width: 70vw;
-    padding: 30px; */
     flex-direction: column;
 }
