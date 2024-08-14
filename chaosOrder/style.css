@@ -7,6 +7,11 @@ body {
     background-image: linear-gradient(45deg, #002442, #003335, #00471D);
 }
 
+.content {
+    width: 60%;
+    margin: auto;
+}
+
 /* TYPOGRPAHY */
 h1 {
     font-family: "Bricolage Grotesque", arial, sans-serif;
@@ -42,6 +47,13 @@ a {
     font-weight: 600;
     text-decoration: none;
     color: white;
+}
+
+p {
+    font-family: "Figtree", arial, sans-serif;
+    color: #CCCDD0;
+    font-size: 1.1em;
+    margin-bottom: 30px;
 }
 
 /* HEADER */
@@ -87,4 +99,12 @@ nav {
     padding: 30px 25px;
     flex-direction: column;
     text-align: center;
+}
+
+/* KEY POINTS */
+.key-points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    justify-content: center;
 }
