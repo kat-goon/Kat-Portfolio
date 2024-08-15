@@ -56,6 +56,23 @@ p {
     margin-bottom: 30px;
 }
 
+/* IMAGE */
+img {
+    margin-bottom: 40px;
+}
+
+.fullsize {
+    z-index: 999;
+    cursor: zoom-out;
+    display: flex;
+    width: auto;
+    max-width: 1200px;
+    height: auto;
+    position: fixed;
+    left: 110px;
+    top: 30px;
+}
+
 /* HEADER */
 header {
     display: flex;
