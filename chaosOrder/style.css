@@ -73,6 +73,10 @@ img {
     top: 30px;
 }
 
+video {
+    margin-bottom: 40px;
+}
+
 /* HEADER */
 header {
     display: flex;
