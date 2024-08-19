@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(45deg, #002442, #003335, #00471D);
+}
+
+.content {
+    width: 60%;
+    margin: auto;
+}
+
+/* TYPOGRPAHY */
+h1 {
+    font-family: "Bricolage Grotesque", arial, sans-serif;
+    font-size: 5em;
+    color: #29D955;
+    padding-top: 50px;
+}
+
+h2 {
+    font-family: "Figtree", arial, sans-serif;
+    font-weight: 450;
+    color: #29D955;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-family: "Bricolage Grotesque", arial, sans-serif;
+    color: white;
+    font-weight: 450;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #CCCDD0;
+}
+
+a {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-family: "Figtree", arial, sans-serif;
+    color: #CCCDD0;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+
+}
+
+.pill-nav a {
+    display: inline-flex;
+    color: #939497;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.pill-nav a:hover {
+    background-color: #29D955;
+    color: #003335;
+}
+
+.pill-nav a.active {
+    background-color: #003335;
+    color: #CCCDD0;
+}
+
+/* HERO SECTION */
+.hero-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 25px;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* KEY POINTS */
+.key-points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    justify-content: center;
+    /* width: 70vw;
+    padding: 30px; */
+}
