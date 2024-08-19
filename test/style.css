@@ -1,19 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(45deg, #002442, #003335, #00471D);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+
+}
+
 .pill-nav a {
-    display: inline-block;
-    color: black;
+    display: inline-flex;
+    color: #939497;
     text-align: center;
     padding: 14px;
     text-decoration: none;
     font-size: 17px;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
 .pill-nav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #29D955;
+    color: #003335;
 }
 
 .pill-nav a.active {
-    background-color: dodgerblue;
+    background-color: #003335;
+    color: #CCCDD0;
+}
+
+h2 {
+    font-family: "Figtree", arial, sans-serif;
+    font-weight: 500;
     color: white;
+    padding-bottom: 50px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    padding: 30px 25px;
+    text-align: center;
 }
